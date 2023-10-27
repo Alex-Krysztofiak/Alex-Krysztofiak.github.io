@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-decoration: none;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #1e2124;
+    background-color: #fff;
+    display: block;
+}
+.container{
+    max-width: 1012px;
+    margin: 32px auto;
+    padding: 0 16px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+h1 { font-size:40px; font-weight: 600;}
+h4 { font-size:15px; font-weight: 400; padding: 6px 0; border-bottom: 1px solid #d4d6d8;}
+.bottomh4{ border-top: 1px solid #d4d6d8; border-bottom: none; margin-top: 32px;}
+
+p{ font-size:max(1em, 12px);}
+.heroInfo{ margin-top: 12px;}
+
+.accompTitle{ font-size: 18px; font-weight: 400;}
+.accompName{ font-size: 15px; font-style: italic; padding-left: 12px;}
+
+a{ font-style: italic;}
+a:link { color: #0000FF;}
+a:visited { color: #A000BB;}
+a:hover { color: #00AAFF; text-decoration: underline;}
+
+.link { margin-left: 32px; }
+.title{ font-size:22px; font-weight: 500; padding: 12px 0 0 0 ;}
+.textbody{ margin: 4px 32px; font-size:max(1em, 12px); line-height: 1.3;}
+.essaybody{ margin: 6px 32px;}
+
+
+/* This is to make sure things are full screen on smaller screens */
+@media all and (min-width:0px) and (max-width: 1000px) {
+    .container{
+        width: 100%;
+    }  
+  }

@@ -1,0 +1,30 @@
+[
+    {
+        "Title": "Forward",
+        "Text1": "-This is a collection of some of my favorite projects that I have worked on. These tend to be group projects because collaboration is something I enjoy. I have more projects on GitHub, but these are my favorites."
+    },
+    {
+        "Title": "Dota Plus Plus",
+        "Text1": "- An AWS hosted web app utilizing an API to collect, analyze, and display data with user accounts.",
+        "Text2": "- Led a full stack web development agile project as scrum master.",
+        "Text3": "- This project was really cool etc etc",
+        "Tech": "- Built with HTML, CSS, JavaScript, React, Python, Flask, SQLite, Github, and AWS",
+        "GitHubLink": "https://github.com/Alex-Krysztofiak/Capstone"
+    },
+    {
+        "Title": "Schelling's Algorithm",
+        "Text1": "- Built a visualization of the Schelling's segregation model.",
+        "Text2": "- Led development as scrum master with agile project management.",
+        "Text3": "- This is where I talk about the challenges and what not",
+        "Tech": "- Built with Python, and the Mesa Library",
+        "GitHubLink": "https://github.com/Alex-Krysztofiak/Schelling-Alg"
+    },
+    {
+        "Title": "Dota Plus Plus",
+        "Text1": "- An AWS hosted web app utilizing an API to collect, analyze, and display data with user accounts.",
+        "Text2": "- Led a full stack web development agile project as scrum master.",
+        "Text3": "- This project was really cool etc etc",
+        "Tech": "- Built with HTML, CSS, JavaScript, React, Python, Flask, SQLite, Github, and AWS",
+        "GitHubLink": "https://github.com/Alex-Krysztofiak/Capstone"
+    }
+]
