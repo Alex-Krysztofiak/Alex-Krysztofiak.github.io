@@ -1,39 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alex Krysztofiak</title>
-    <link rel="stylesheet" href="../static/CSS/style.css">
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-	<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
-  <body>
-    <!-- <div class="container" id="divDisplay"></div> -->
-    <div class="project container">
 
-      <h1>Essays</h1>
-      <h4><a href="../index.html">back</a></h4>
-      
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alex Krysztofiak</title>
+  <link rel="stylesheet" href="../static/CSS/style.css">
+</head>
 
+<body>
+  <!-- <div class="container" id="divDisplay"></div> -->
+  <div class="container">
+
+    <h1>Essays</h1>
+    <h4><a href="../index.html">back</a></h4>
+
+    <!-- Heading number 1 -->
+    <div className="project">
       <h4 class="title">On accessibility, sustainability, diversity, and inclusion</h4>
-      <p class="textbody"><a href="../template/essays.html">Essay about accessibility</a></p>
-      <p class="textbody"><a href="../template/essays.html">Essay about sustainability</a></p>
-      <p class="textbody"><a href="../template/essays.html">Essay about diversity and inclusion</a></p>
-      
-      
-      <h4 class="title">On agile</h4>
-      <p class="textbody"><a href="../template/essays.html">Essay about agile 1</a></p>
-      <p class="textbody"><a href="../template/essays.html">Essay about agile 2</a></p>
+      <!-- Essay 1 -->
+      <button class="accordion">
+        <p class="textbody">Essay about accessibility</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody">
+          Accessibility in software looks different than it would relative to accessibility in the outside world but
+          still considers similar disabilities that people may have. Disabilities come in many forms, and roughly 15% of
+          the world’s population, almost 1 billion people, experience some form of accessibility needs. Accessibility in
+          tech is relatively new but there are many ways to make things that are not only accessible to those who need
+          it, but beneficial to all users.
+        </p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
 
-      <h4 class="title">On Videogames</h4>
-      <p class="textbody"><a href="../template/essays.html">Essay about agile 1</a></p>
-      <p class="textbody"><a href="../template/essays.html">Essay about agile 2</a></p>
-      
+      <!-- Essay 2 -->
+      <button class="accordion">
+        <p class="textbody">Essay about sustainability</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody">
+          THIS IS THE ESSAY BOSY ABGOUT SUSTAINABLILITY Accessibility in software looks different than it would relative
+          to accessibility in the outside world but still considers similar disabilities that people may have.
+          Disabilities come in many forms, and roughly 15% of the world’s population, almost 1 billion people,
+          experience some form of accessibility needs. Accessibility in tech is relatively new but there are many ways
+          to make things that are not only accessible to those who need it, but beneficial to all users.
+        </p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
+
+      <!-- Essay 3 -->
+      <button class="accordion">
+        <p class="textbody">Essay about diversity and inclusion</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody">
+          THIS IS THE ESSAY BOSY ABGOUT d and i in software looks different than it would relative to accessibility in
+          the outside world but still considers similar disabilities that people may have. Disabilities come in many
+          forms, and roughly 15% of the world’s population, almost 1 billion people, experience some form of
+          accessibility needs. Accessibility in tech is relatively new but there are many ways to make things that are
+          not only accessible to those who need it, but beneficial to all users.
+        </p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
     </div>
-  </body>
-  <!-- <script type="text/babel" src="../static/JS/essays.js"></script> -->
-  
+
+    <!-- Heading Number 2 -->
+    <div className="project">
+      <h4 class="title">On Coding Practices</h4>
+      <!-- Essay 1 -->
+      <button class="accordion">
+        <p class="textbody">On Agile</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
+      <!-- Essay 2 -->
+      <button class="accordion">
+        <p class="textbody">On Clean Code</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
+      <!-- Essay 3 -->
+      <button class="accordion">
+        <p class="textbody">On the Cult of Done</p>
+      </button>
+      <div class="panel">
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+        <p class="essaybody"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div className="project">
+    <h4 class="title"></h4>
+    <button class="accordion"><p class="textbody"></p></button>
+    <div class="panel">
+      <p class="essaybody"></p>
+      <p class="essaybody"></p>
+      <p class="essaybody"></p>  
+    </div>
+  </div> -->
+</body>
+<script type="text/javascript" src="../static/JS/essays.js"></script>
+
 </html>
